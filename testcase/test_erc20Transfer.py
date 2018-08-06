@@ -16,7 +16,8 @@ class UserTest(status):
         args_dict = {
             "userId": "6425605781151809538",
             "amount": 0.001,
-            "cate": "wbt"
+            "cate": "wbt",
+            'tsId': str(self.get_itemId())
         }
 
         param = {
@@ -43,7 +44,8 @@ class UserTest(status):
         args_dict = {
             "userId": "6425605781151809538",
             "amount": 1,
-            "cate": "wob"
+            "cate": "wob",
+            'tsId': str(self.get_itemId())
         }
 
         param = {
@@ -58,7 +60,7 @@ class UserTest(status):
         print('case2')
         r = post('api/v1/erc20/transfer', data)
         print(r.text)
-        self.ne_statusCode(r)
+        self.ne_no_statusCode(r)
         self.assertEqual(r.json()['message'],"The user have no wob asset")
 
 
@@ -68,7 +70,8 @@ class UserTest(status):
         args_dict = {
             "userId": "6425605781151809538",
             "amount": -1,
-            "cate": "wob"
+            "cate": "wob",
+            'tsId': str(self.get_itemId())
         }
 
         param = {
@@ -82,7 +85,8 @@ class UserTest(status):
         data = {"args": param["args"], "sign": get_sign}
         r = post('api/v1/erc20/transfer', data)
         print(r.text)
-        self.ne_statusCode(r)
+        self.ne_no_statusCode(r)
+        self.assertTrue(r.json()['message'] == 'The user have no wob asset')
 
 
     def test_user_004(self):
@@ -91,7 +95,8 @@ class UserTest(status):
         args_dict = {
             "userId": "6425605781151809538",
             "amount": 999999999,
-            "cate": "wbt"
+            "cate": "wbt",
+            'tsId': str(self.get_itemId())
         }
 
         param = {
@@ -105,6 +110,6 @@ class UserTest(status):
         data = {"args": param["args"], "sign": get_sign}
         r = post('api/v1/erc20/transfer', data)
         print(r.text)
-        self.ne_statusCode(r)
+        self.ne_no_statusCode(r)
         self.assertTrue('The user at most transfer' in r.json()["message"])
 

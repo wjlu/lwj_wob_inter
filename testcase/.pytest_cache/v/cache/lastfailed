@@ -1,0 +1,4 @@
+{
+  "test_erc20Transfer.py::UserTest::test_user_001": true,
+  "test_erc20Transfer.py::UserTest::test_user_002": true
+}

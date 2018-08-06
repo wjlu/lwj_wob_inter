@@ -17,7 +17,8 @@ class UserTest(status):
             "userId": "6425591600348397569",
             "id": ["e7fbda05223c57d3a3eddc68"],
             "desc": "des",
-            "price":"1"
+            "price":"1",
+            'tsId': str(self.get_itemId())
         }
 
         param = {
@@ -42,7 +43,9 @@ class UserTest(status):
             "userId": "6425591600348397569",
             "id": ["e7fbda05223c57d3a3eddc68"],
             "desc": "",
-            "price":"1.11"
+            "price":"1.11",
+            'tsId': str(self.get_itemId())
+
         }
 
         param = {

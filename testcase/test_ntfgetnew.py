@@ -3,6 +3,7 @@ import json
 from testcase.status_code import *
 from page.sign import *
 from page.ntfgetnew import *
+import time
 
 
 class UserTest(status):
@@ -27,7 +28,7 @@ class UserTest(status):
         get_sign = api_arguments_sign(param)
 
         data = {"args": param["args"], "sign": get_sign}
-
+        time.sleep(80)
         r = post('api/v1/nft/get/new', data)
         print(r.text)
         self.statusCode(r)

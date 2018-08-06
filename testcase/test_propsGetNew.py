@@ -46,7 +46,7 @@ class UserTest(status):
         data = {"args": param["args"], "sign": get_sign}
 
         r = post('api/v1/props/get/new', data)
-
+        print(r.text)
         self.statusCode(r)
 
     def test_user_002(self):
