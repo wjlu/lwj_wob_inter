@@ -37,7 +37,7 @@ class UserTest(status):
         self.statusCode(r)
 
     def test_user_002(self):
-        '''测试用于游戏端向商城发起nft资产挂售请求，正常case，描述为空'''
+        '''测试用于游戏端向商城发起nft资产转移请求，正常case，描述为空'''
 
         args_dict = {
             "userId": "6425591600348397569",

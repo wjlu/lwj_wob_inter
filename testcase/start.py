@@ -1,17 +1,9 @@
 # # -*- coding: utf-8 -*-
-
 import unittest
 from page.ntfgetnew import *
 import HTMLTestRunner
 import time
-# def allRun():
-#     suite = unittest.TestLoader().discover(
-#         start_dir=os.path.dirname(__file__)
-#     )
-#
-#     unittest.TextTestRunner(verbosity=2).run(suite)
-# allRun()
-
+import pdfkit
 
 
 def allTestCase():
@@ -31,4 +23,5 @@ if __name__ =="__main__":
             title=timestr+'wob商城接口自动化报告',
             description='wob商城接口自动化报告，用于定时检测接口正确性'
         ).run(allTestCase())
+    pdfkit.from_file('report.html', 'report.pdf')
 
