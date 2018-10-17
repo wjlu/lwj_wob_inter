@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4af5124-70c0-4822-81b5-f927755efb9d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/testcase/test_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test_erc20expend.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/.pytest_cache/v/cache/lastfailed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/status_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/status_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_erc20Transfer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_erc20Transfer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_gamelogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_gamelogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_nftConsignmentSale.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_nftConsignmentSale.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/testcase/test_gamelogin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1050">
-              <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+              <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -113,8 +103,8 @@
       <file leaf-file-name="test_nftConsignmentSale.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/test_nftConsignmentSale.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="345">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding>
                 <element signature="e#27#38#0" expanded="true" />
               </folding>
@@ -126,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/testcase/test_1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -211,7 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,6 +237,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,9 +417,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32876712" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.248023" />
@@ -437,8 +427,8 @@
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975095" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975095" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -786,14 +776,14 @@
     <entry file="file://$PROJECT_DIR$/testcase/test_gamelogin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
-          <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/test_nftConsignmentSale.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="345">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
             <element signature="e#27#38#0" expanded="true" />
           </folding>
@@ -803,7 +793,7 @@
     <entry file="file://$PROJECT_DIR$/testcase/test_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
