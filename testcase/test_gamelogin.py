@@ -103,7 +103,7 @@ class UserTest(status):
 
         r = post('api/v1/game/login', data)
         print(r.text)
-        self.gamelogin_allerr_statusCode(r)
+        self.statusCode_400error(r)
         self.assertEqual(r.json()['message'],"email and password are required")
 
 

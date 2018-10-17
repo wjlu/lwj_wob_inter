@@ -49,7 +49,6 @@ class UserTest(status):
         print(r.text)
         self.statusCode(r)
         print('测试用于游戏端向商城发起nft资产挂售请求，正常case')
-        #self.log('测试用于游戏端向商城发起nft资产挂售请求，正常case')
 
     def test_user_002(self):
         '''测试用于游戏端向商城发起nft资产挂售请求，正常case，描述为空'''

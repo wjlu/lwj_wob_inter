@@ -38,7 +38,7 @@ class status(unittest.TestCase):
         self.assertEqual(r.json()['code'], -1)
         self.assertEqual(r.json()['http_status_code'], 200)
 
-    def gamelogin_allerr_statusCode(self, r):
+    def statusCode_400error(self, r):
         '''协议状态码与业务状态码的验证'''
 
         self.assertEqual(r.json()['code'], -1)
